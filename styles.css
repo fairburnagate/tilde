@@ -24,7 +24,7 @@ p {
 flex-basis: fit-content;
 }
 .mainbox {
-	width: 60%;
+	width: 55%; 
 /*	height: calc(100vh - 20vh); */
 	padding: 1em;
 	border: 1px dashed grey;
