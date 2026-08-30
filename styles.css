@@ -9,14 +9,18 @@ a {
 a:hover {
 	text-decoration: none;
 }
+
 p {
 	max-width: 60ch;
 }
+
 .boxcontainer {
 	display: flex;
 	flex-direction: row;
 	gap: 1em;
+	width: 70vw;
 }
+
 .boxcontainer2 {
 	display: flex;
 	flex-direction: column;
@@ -24,12 +28,14 @@ p {
 	flex-basis: fit-content;
 	height: 70vh;
 }
+
 .mainbox {
 	width: 55%;
 	/*	height: calc(100vh - 20vh); */
 	padding: 1em;
 	border: 1px dashed grey;
 }
+
 .sidebox {
 	/*	display: flex;
 	flex-direction: column; */
@@ -39,10 +45,12 @@ p {
 	max-width: 40%;
 	height: 100%;
 }
+
 #artwork img {
 	cursor: zoom-in;
 	max-width: 100%;
 }
+
 .center {
 	display: flex;
 
