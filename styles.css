@@ -3,6 +3,11 @@
 	background-color: white;
 	color: black;
 }
+body {
+	padding-bottom: 31vh;
+	height: 100vh;
+	width: 100vw;
+}
 a {
 	color: gray;
 }
@@ -63,4 +68,19 @@ iframe.directory {
 	max-width: 95%;
 	scrollbar-width: 0;
 	height: 80%;
+}
+
+@media screen and (max-width: 800px) {
+	.boxcontainer {
+		flex-direction: column;
+		gap: 1em;
+		width: 100vw;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.boxcontainer {
+		width: 100vw;
+		height: 100vw;
+	}
 }
